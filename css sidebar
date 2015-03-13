@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#id-HC-Searchbox .hcw_hotelCheckin {
+	background: url("http://www.hcsearchbox.com/Deals/cal_icon_17x16.gif") no-repeat scroll 102px center white !important;
+	border: 1px solid #919699 !important;
+	color: #09090A !important;
+	font: bold 14px Arial !important;
+	height: auto !important;
+	margin: 0 !important;
+	padding: 3px 0 4px 2px !important;
+	position: absolute !important;
+	top: 85px !important;
+	width: 120px !important;
+	z-index: 2;
+}
+
+#id-HC-Searchbox .hcw_hotelCheckout {
+	background: url("http://www.hcsearchbox.com/Deals/cal_icon_17x16.gif") no-repeat scroll 102px center white !important;
+	border: 1px solid #919699 !important;
+	color: #09090A !important;
+	font: bold 14px Arial !important;
+	height: auto !important;
+	left: 150px !important;
+	margin: 0 !important;
+	padding: 3px 0 4px 2px !important;
+	position: absolute !important;
+	top: 85px !important;
+	width: 120px !important;
+	z-index: 2;
+}
+
+
+#id-HC-Searchbox .hcw_cityPulldown {
+	background: transparent !important;
+	height: auto !important;
+	z-index: 19;
+}
+
+#id-HC-Searchbox .hcw_searchButton {
+    background: url("http://hotelswp-untuk-hc.googlecode.com/files/travelsearch.png") no-repeat scroll left top transparent !important;
+    border-width: 0 !important;
+    color: #FFFFFF !important;
+    cursor: pointer !important;
+    font: bold 0 arial,helvetica,sans-serif !important;
+    height: 52px !important;
+    left: 330px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 130px !important;
+    width: 126px !important;
+}
+
+#id-HC-Searchbox .hcw_errorText { background-color: #F9CCCA !important; }
+
+/*** New Autocomplete Styles */
+.ac_input {width: 380px;}
+.ac_results {padding: 0px;border: 1px solid black;background-color: #f9f9f9;overflow: hidden;z-index:999;}
+.ac_results ul {width: 100%;list-style-position: outside;list-style: none;padding: 0;margin: 0;}
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	width:280px;
+	font-family:Arial;
+	font-size: 12px;
+	overflow: hidden;
+	text-align:left;
+	font-weight:normal;
+}	
+.ac_over {
+	background-color: Highlight;
+	color: HighlightText;
+}
+/******* Only required of IE - Has issues with z-index and dropdowns *************/
+.ac_results iframe {
+    display:none;/*sorry for IE5*/
+    display/**/:block;/*sorry for IE5*/
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    filter:mask();
+    width:3000px;
+    height:3000px;
+}
+
+div.hcw_wrapperDiv {
+    float: left;
+    height: 200px !important;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px !important;
+    position: relative;
+}
+
+div#id-HC-Searchbox1 .hcw_cityPulldown {
+	background: none repeat scroll 0 0 white !important;
+	border: 1px solid #919699 !important;
+	color: #09090A !important;
+	font: bold 12px Arial !important;
+	height: auto !important;
+	left: 58px !important;
+	margin: 0 !important;
+	padding: 3px 0 2px 2px !important;
+	position: absolute !important;
+	top: 60px !important;
+	width: 333px !important;
+	z-index: 19;
+}
+
+
+
+
+label.hcw_guestsLabel {
+    color: #FFFFFF;
+    display: block !important;
+    height: 52px;
+    left: 305px !important;
+    padding-left: 3px;
+    padding-top: 2px;
+    position: absolute !important;
+    top: 65px !important;
+    width: 58px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+
+label.hcw_roomsLabel {
+    color: #FFFFFF;
+    display: block !important;
+    height: 52px;
+    left: 383px !important;
+    padding-left: 3px;
+    padding-top: 2px;
+    position: absolute !important;
+    top: 65px !important;
+    width: 58px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+label.hcw_hotelCheckinLabel {
+	color: #FFFFFF;
+	display: block !important;
+	height: 48px;
+	padding: 0px;
+	position: absolute !important;
+	top: 65px !important;
+	width: 127px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+label.hcw_hotelCheckoutLabel {
+    color: #FFFFFF;
+    display: block !important;
+    height: 48px;
+    left: 150px !important;
+    padding:02px;
+    position: absolute !important;
+    top: 65px !important;
+    width: 127px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+label.hcw_citySearchLabel {
+    color: #FFFFFF;
+    display: block !important;
+    height: 45px;
+    margin: 0 !important;
+    padding-left: 0px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: left !important;
+    width: 430px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+input.hcw_citySearch {
+    background: none repeat scroll 0 0 white !important;
+    border: 1px solid #919699 !important;
+    color: #09090A !important;
+    font: bold 14px Arial !important;
+    height: auto !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 23px;
+    padding: 10px 0 2px 2px !important;
+    position: absolute !important;
+    width: 450px !important;
+    z-index: 3;
+}
+
+
+
+select.hcw_guests {
+    color: #000000 !important;
+    font: 14px Arial !important;
+    height: 20px !important;
+    left: 308px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 87px !important;
+    width: 50px !important;
+    z-index:1;
+}
+
+select.hcw_rooms {
+    color: #000000 !important;
+    font: 14px Arial !important;
+    height: 20px !important;
+    left: 386px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 87px !important;
+    width: 50px !important;
+    z-index: 1;
+}
